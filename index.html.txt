@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animal Fodder List</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Animal Fodder List</h1>
+    </header>
+
+    <section id="fodder-list">
+        <h2>Available Fodder Types</h2>
+        <ul id="fodder-items">
+            <!-- Fodder items will be inserted here -->
+        </ul>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

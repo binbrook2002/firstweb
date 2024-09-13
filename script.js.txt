@@ -1,0 +1,27 @@
+// Sample data for fodder items
+const fodderItems = [
+    'Hay',
+    'Alfalfa',
+    'Corn Silage',
+    'Straw',
+    'Oats',
+    'Grain Mix',
+    'Barley',
+    'Clover',
+    'Beet Pulp',
+    'Soybean Meal'
+];
+
+// Function to load fodder items into the list
+function loadFodderItems() {
+    const fodderList = document.getElementById('fodder-items');
+
+    fodderItems.forEach(item => {
+        const listItem = document.createElement('li');
+        listItem.textContent = item;
+        fodderList.appendChild(listItem);
+    });
+}
+
+// Load fodder items when the page loads
+window.onload = loadFodderItems;

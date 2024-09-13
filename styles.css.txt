@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#fodder-list {
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+#fodder-list h2 {
+    color: #333;
+    text-align: center;
+}
+
+#fodder-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#fodder-items li {
+    background: #e0e0e0;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    color: #333;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+#fodder-items li:hover {
+    background: #c0c0c0;
+}
